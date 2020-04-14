@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.molaapp.iptv">
+    package="com.radja.tvonlineinternational">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.molaapp.iptv.MyApplication"
+        android:name="com.radja.tvonlineinternational.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,7 +23,7 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713"/>
         <activity
-            android:name="com.molaapp.iptv.SplashActivity"
+            android:name="com.radja.tvonlineinternational.SplashActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,47 +32,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.molaapp.iptv.MainActivity"
+            android:name="com.radja.tvonlineinternational.MainActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.molaapp.iptv.ChannelDetailsActivity"
+            android:name="com.radja.tvonlineinternational.ChannelDetailsActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.molaapp.iptv.ReportChannelActivity"
+            android:name="com.radja.tvonlineinternational.ReportChannelActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.molaapp.iptv.AboutUsActivity"
+            android:name="com.radja.tvonlineinternational.AboutUsActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.molaapp.iptv.PrivacyActivity"
+            android:name="com.radja.tvonlineinternational.PrivacyActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.molaapp.iptv.ProfileActivity"
+            android:name="com.radja.tvonlineinternational.ProfileActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.molaapp.iptv.SettingActivity"
+            android:name="com.radja.tvonlineinternational.SettingActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-            android:name="com.molaapp.iptv.VideoPlayActivity"
+            android:name="com.radja.tvonlineinternational.VideoPlayActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="sensor" />
 
         <activity
-            android:name="com.molaapp.iptv.TVPlayActivity"
+            android:name="com.radja.tvonlineinternational.TVPlayActivity"
             android:label="@string/app_name"
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

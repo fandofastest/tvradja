@@ -3,9 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.molaapp.iptv"
+        applicationId "com.radja.tvonlineinternational"
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
-                                onesignal_app_id: "25e69f53-8982-4f20-9fd9-63c3d1c38130",
+                                onesignal_app_id: "b606d340-cd9b-4226-8f26-513e6216d7a0",
                                 onesignal_google_project_number: "REMOTE"]
         minSdkVersion 17
         targetSdkVersion 28
@@ -40,10 +40,10 @@ dependencies {
     implementation 'com.github.ornolfr:rating-view:0.1.2@aar'
     implementation 'cn.gavinliu.android.lib:ShapedImageView:0.8.4'
     implementation 'com.loopj.android:android-async-http:1.4.9'
-    implementation 'com.google.android.gms:play-services-ads:19.0.0'
+    implementation 'com.google.android.gms:play-services-ads:19.0.1'
     implementation 'com.google.android.gms:play-services-gcm:17.0.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
-    implementation 'com.onesignal:OneSignal:3.12.2@aar'
+    implementation 'com.onesignal:OneSignal:3.12.4@aar'
     implementation 'androidx.mediarouter:mediarouter:1.1.0'
     implementation 'com.mobsandgeeks:android-saripaar:2.0.2'
     implementation 'com.github.ixiDev:GDPRChecker:v0.2'
@@ -57,5 +57,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.firebase:firebase-core:17.3.0'
+
 
 }
+apply plugin: 'com.google.gms.google-services'
